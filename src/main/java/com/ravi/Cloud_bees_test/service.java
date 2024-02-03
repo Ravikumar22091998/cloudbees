@@ -3,9 +3,9 @@ package com.ravi.Cloud_bees_test;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class service {
 
 	private static List<product_entity> Products = new ArrayList<>();
